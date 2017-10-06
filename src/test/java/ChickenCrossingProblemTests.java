@@ -29,6 +29,7 @@ public class ChickenCrossingProblemTests {
         chickenCrossingProblem.move(Items.CORN);
     }
 
+    @Ignore("Remove to run test")
     @Test
     public void InvalidParameters2Test() throws Exception {
         expectedException.expect(Exception.class);
@@ -36,6 +37,7 @@ public class ChickenCrossingProblemTests {
         chickenCrossingProblem.move(Items.CORN, Items.CHICKEN);
     }
 
+    @Ignore("Remove to run test")
     @Test
     public void MoveFoxRightTest() throws Exception {
         expectedException.expect(Exception.class);
@@ -43,6 +45,7 @@ public class ChickenCrossingProblemTests {
         chickenCrossingProblem.move(Items.MAN, Items.FOX);
     }
 
+    @Ignore("Remove to run test")
     @Test
     public void MoveCornRightTest() throws Exception {
         expectedException.expect(Exception.class);
@@ -50,6 +53,7 @@ public class ChickenCrossingProblemTests {
         chickenCrossingProblem.move(Items.MAN, Items.CORN);
     }
 
+    @Ignore("Remove to run test")
     @Test
     public void MoveManRightTest() throws Exception {
         expectedException.expect(Exception.class);
@@ -57,6 +61,7 @@ public class ChickenCrossingProblemTests {
         chickenCrossingProblem.move(Items.MAN);
     }
 
+    @Ignore("Remove to run test")
     @Test
     public void InvalidMoveTest() throws Exception {
         expectedException.expect(Exception.class);
@@ -66,6 +71,7 @@ public class ChickenCrossingProblemTests {
         chickenCrossingProblem.move(Items.MAN, Items.CORN);
     }
 
+    @Ignore("Remove to run test")
     @Test
     public void SolutionTest(){
         Set<Items> testSet = new HashSet<>();
