@@ -19,6 +19,12 @@ public class ChickenCrossingProblemTests {
     @Before
     public void setUp(){
         chickenCrossingProblem = new ChickenCrossingProblem();
+        chickenCrossingProblem.leftSide.clear();
+        chickenCrossingProblem.rightSide.clear();
+        chickenCrossingProblem.leftSide.add(Items.MAN);
+        chickenCrossingProblem.leftSide.add(Items.FOX);
+        chickenCrossingProblem.leftSide.add(Items.CHICKEN);
+        chickenCrossingProblem.leftSide.add(Items.CORN);
     }
 
 

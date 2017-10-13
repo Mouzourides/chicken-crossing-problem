@@ -1,14 +1,5 @@
 public class ChickenCrossingProblem implements Crossing {
 
-    public ChickenCrossingProblem(){
-        leftSide.clear();
-        rightSide.clear();
-        leftSide.add(Items.MAN);
-        leftSide.add(Items.FOX);
-        leftSide.add(Items.CHICKEN);
-        leftSide.add(Items.CORN);
-    }
-
     @Override
     public void move(Items man, Items item) throws Exception {
         if(validInputs(man,item)){
